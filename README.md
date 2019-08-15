@@ -1,5 +1,6 @@
-# Project 3: Web APIs & Classification
-
+## NLP, Web APIs & Classification
+--------
+_By: Rachel Koenig_
 
 **Problem Statement**
 As a data scientist for the advertising department at reddit, I need to find the most predictive keywords and/or phrases to accurately classify the the dating advice and relationship advice subreddit pages so we can use them to determine which advertisements should populate on each page. Since this is a classification problem, I'll use Logistic Regression & Bayes models.  Misclassifications in this case would be fairly harmless so I will use the accuracy score and a baseline of 63.3% to rate success.
@@ -88,8 +89,6 @@ Lastly, setting max features to 5000 decreased cut down my columns to about a qu
 **Conclusion and Recommendations**
 
 Even though I would like to have higher train and test scores, I was able to successfully lower the variance and there are definitely several words that have high predictive power, so I think the model is ready to launch a test.  If advertising engagement increases, the same key words could be used to find other potentially lucrative pages. I found it interesting that taking out the overly used words helped with overfitting, but brought the accuracy score down. I think there is probably still room to play around with the paramaters of the Tfidf Vectorizer to see if different stop words make a different or  
-
-Presentation slides: https://docs.google.com/presentation/d/1MKBGf6ZKN9XmH2RUndbwFU5mz7bIMKxajLz34kLIqcU/edit?usp=sharing
 
 Sources:
 visualizations: https://towardsdatascience.com/a-complete-exploratory-data-analysis-and-visualization-for-text-data-29fb1b96fb6a
